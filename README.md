@@ -166,6 +166,12 @@ netsh interface ip set dnsservers name="Ethernet" static 192.168.1.1  primary
 
 ipconfig /flushdns
 
+...
+
+
+
+AND ON OFF ADAPTER
+
 
 9. BLOCK ACCESS FOR CATALOG(DIR)  C:\$RECYCLE.BIN (NEW ROOTKIT, WHICH WRITING HACKERS) (SHOW HIDEN FILES OR EXEC WITH ADMINISTRATOR CMD
     EXAMPLE:
