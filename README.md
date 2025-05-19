@@ -161,4 +161,24 @@ netsh int ip set address "Ethernet" static 192.168.1.110 255.255.255.0 192.168.1
 netsh interface ip set dnsservers name="Ethernet" static 192.168.1.1  primary
 
 
-ALLOW OUTPUT TRAFFIC FOR SERFING IN INTERNET, FOR EXAMPLE
+9. BLOCK ACCESS FOR CATALOG $RECYCLE.BIN (NEW ROOTKIT, WHICH WRITING HACKERS)
+
+10. CHECK DISK WHEN INSTALLED WINDOWS 11 PRO ON ACCESS NET GROUP SECURITY, DISABLE ACCESS FOR AUNTIFICATION USERS, AND ALL AND IF WILL S-1-1-0 
+
+11. ALLOW OUTPUT TRAFFIC FOR SERFING IN INTERNET, FOR EXAMPLE
+
+12.
+
+RECOMANDATION USE AND GOTO ADMINISTRATOR WITH USUALY USER ACCESS.
+
+EXAMPLE:
+
+net user Администратор /ACTIVE:YES 
+net user Администратор password HarrdPass737 ( password default empty after installing )
+
+next log out this user.
+
+net user Administrator /ACTIVE:YES 
+net user Administrator password HarrdPass737 ( password default empty after installing )
+
+
