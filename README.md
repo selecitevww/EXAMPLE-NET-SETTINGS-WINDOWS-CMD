@@ -218,13 +218,16 @@ net user Администратор password HarrdPass737 ( password default emp
 
 OR
 
-next log out this user.
-
 goto to Administrator in GRAPHIC INTERFACE
 
 net user Administrator /ACTIVE:YES 
 
 net user Administrator password HarrdPass737 ( password default empty after installing )
+
+....
+
+next log out this user.
+
 
 14. CHECK ALL SETTING
 
