@@ -178,12 +178,19 @@ AND ON OFF ADAPTER
 WINDOWS 11 PRO:
 
 COMMAND IN CMD, HARWARE ID YOU SEE IN DEVICE MANAGER
+
 EXAMPLE:
+
  pnputil /disable-device /device-id "PCI\VEN_10EC&DEV_8168&SUBSYS_012310EC&REV_06" 
+ 
  pnputil /disable-device /device-id "PCI\VEN_10EC&DEV_8168&SUBSYS_012310EC&REV_06" /FORCE
+ 
  cls && cls && timeout 0 && cls && timeout 0 && cls && timeout 0 && cls
+ 
  pnputil /enable-device /device-id "PCI\VEN_10EC&DEV_8168&SUBSYS_012310EC&REV_06" 
+ 
  pnputil /enable-device /device-id "PCI\VEN_10EC&DEV_8168&SUBSYS_012310EC&REV_06" /FORCE
+ 
 
 
 
