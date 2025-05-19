@@ -179,9 +179,14 @@ RECOMANDATION USE AND GOTO ADMINISTRATOR WITH USUALY USER ACCESS.
 EXAMPLE:
 
 net user Администратор /ACTIVE:YES 
+
 net user Администратор password HarrdPass737 ( password default empty after installing )
 
+OR
+
 next log out this user.
+
+goto to Administrator in GRAPHIC INTERFACE
 
 net user Administrator /ACTIVE:YES 
 net user Administrator password HarrdPass737 ( password default empty after installing )
