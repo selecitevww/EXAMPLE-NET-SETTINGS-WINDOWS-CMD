@@ -110,6 +110,8 @@ cls & cls && NET SHARE Z$ /DELETE && cls & cls
 
 cls & cls && NET SHARE ASMIN$ /DELETE && cls & cls
 
+ipconfig /flushdns
+
 pause
 
 cls
@@ -129,6 +131,8 @@ netsh interface ipv4 delete address "Loopback Pseudo-Interface 1"  addr=127.0.0.
 powershell Remove-NetIPAddress -IPAddress "fe80::2" -Recurse
 
 ipconfig /flushdns
+
+cls & cls && netsh winsock reset catalog && cls
 
 netsh interface tcp set global rss=disabled
 
@@ -159,6 +163,8 @@ netsh winsock reset catalog
 netsh int ip set address "Ethernet" static 192.168.1.110 255.255.255.0 192.168.1.1 1
 
 netsh interface ip set dnsservers name="Ethernet" static 192.168.1.1  primary
+
+ipconfig /flushdns
 
 
 9. BLOCK ACCESS FOR CATALOG(DIR)  C:\$RECYCLE.BIN (NEW ROOTKIT, WHICH WRITING HACKERS) (SHOW HIDEN FILES OR EXEC WITH ADMINISTRATOR CMD
