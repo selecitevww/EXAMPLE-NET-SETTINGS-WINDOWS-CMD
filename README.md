@@ -1,4 +1,7 @@
 # EXAMPLE IF VIRUS WRITING IN BIOS, IT IS SETTINGS FOR NETWORK WINDOWS 11 PRO:
+
+-2: paging file size 0MB, virus-rootkit use for load in your(Windows) system this function default function.
+
 -1: "� " - INCLUDE IN NAME WORKGROUP (WHEN INSTALLING WINDOWS) AND NAME LOCALUSERNAMES ( HARD LEVEL ***)
 
 -0: DISABLE DEFAULT BROWSER ("ixplorer.exe" - Internet Explorer, msedge.exe - EDGE) AND BLOCK FIREWALL DIRS PROGRAM FILES .. FOR INTERNET.
